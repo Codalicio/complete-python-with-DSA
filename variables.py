@@ -33,6 +33,20 @@ It gets stored in the memory with three attributes :
     2.). Value of the variable
     3.). Reference count(number of variables with the same value)
 '''
-# id() :- built-in function to know the address of a variable :
+# id() :- built-in function/method to know the address of a variable :
 print(id(name), id(full_name))
 print(id(name) == id(full_name))
+
+# Variable Naming Convention :
+# This is a 'DocString' :
+'''
+Variable names can only contain alphabets(both small and big), numbers and underscore symbol( _ ).
+Starting letter of a variable name can only be alphabet or _ .
+Also, variable names are case-sensitive : name and Name are two different variables in the memory.
+Avoid using reserved keywords as variable names.
+Variable name should be a single entity/word.
+Variable names should be logical. 
+'''
+
+Name = "Sonu Kumar"
+print(name, Name)
